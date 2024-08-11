@@ -1,25 +1,14 @@
-# Quick Start: React Project in Frontend Directory
+# BM42 Qdrant Search Demo
 
-1. Open terminal and navigate to project root.
+This demo project is designed to test and showcase the capabilities of the bm42 searching model integrated with Qdrant vector database. It provides a practical implementation to demonstrate how the bm42 model can be utilized for efficient and accurate vector search operations.
 
-2. Create and enter frontend directory:
-   mkdir frontend && cd frontend
+The demo consists of a React frontend for user interaction and visualization, coupled with a FastAPI backend that interfaces with the Qdrant database and the bm42 model. This setup allows users to:
 
-3. Generate React project:
-   npx create-react-app .
+1. Input search queries
+2. Observe the bm42 model's processing of these queries
+3. View the search results retrieved from the Qdrant database
+4. Analyze the performance and accuracy of the bm42 searching model
 
-4. Start development server:
-   npm start
+By exploring this demo, users can gain insights into the strengths and potential applications of the bm42 model in conjunction with Qdrant for various search and retrieval tasks.
 
-5. Access app at `http://localhost:3000`.
-
-6. Stop server with `Ctrl + C`.
-
-## Key Scripts
-
-- `npm start`: Run dev mode
-- `npm test`: Run tests
-- `npm run build`: Build for production
-- `npm run eject`: Eject from Create React App
-
-For more, see [Create React App docs](https://facebook.github.io/create-react-app/docs/getting-started).
+## Quick Start: React Frontend Setup
