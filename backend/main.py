@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from api import *
 from api import app_router
 import debugpy
+from core import init_script
 
 
 # Set up fastapi
@@ -20,7 +21,7 @@ def setup_fastapi():
 
 def onload():
     debugpy.listen(("0.0.0.0", 5694))
-    
+    init_script()
 
 # Set up app
 app = setup_fastapi()
